@@ -4,7 +4,7 @@
   "description": "Webpack 4 Boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
+    "start": "cross-env SASS_PATH=./node_module NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
   },
   "keywords": [
